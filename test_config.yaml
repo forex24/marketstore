@@ -1,0 +1,7 @@
+root_directory: ./data
+listen_port: 5993
+grpc_listen_port: 5995
+log_level: info
+stop_grace_period: 0
+wal_rotate_interval: 5
+start_time: 2024-01-01 00:00:00 

@@ -1,0 +1,10 @@
+/Users/gxj/Documents/GitHub/marketstore/marketstore-rust-client/target/debug/deps/proc_macro_error-8c44d9719442d2ca.d: /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/lib.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/dummy.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/diagnostic.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/macros.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/sealed.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/imp/fallback.rs
+
+/Users/gxj/Documents/GitHub/marketstore/marketstore-rust-client/target/debug/deps/libproc_macro_error-8c44d9719442d2ca.rmeta: /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/lib.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/dummy.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/diagnostic.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/macros.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/sealed.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/imp/fallback.rs
+
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/lib.rs:
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/dummy.rs:
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/diagnostic.rs:
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/macros.rs:
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/sealed.rs:
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-error-1.0.4/src/imp/fallback.rs:

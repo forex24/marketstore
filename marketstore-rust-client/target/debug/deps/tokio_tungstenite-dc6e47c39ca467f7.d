@@ -1,0 +1,10 @@
+/Users/gxj/Documents/GitHub/marketstore/marketstore-rust-client/target/debug/deps/tokio_tungstenite-dc6e47c39ca467f7.d: /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/lib.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/compat.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/connect.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/handshake.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/stream.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/tls.rs
+
+/Users/gxj/Documents/GitHub/marketstore/marketstore-rust-client/target/debug/deps/libtokio_tungstenite-dc6e47c39ca467f7.rmeta: /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/lib.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/compat.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/connect.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/handshake.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/stream.rs /Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/tls.rs
+
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/lib.rs:
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/compat.rs:
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/connect.rs:
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/handshake.rs:
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/stream.rs:
+/Users/gxj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.27.0/src/tls.rs:

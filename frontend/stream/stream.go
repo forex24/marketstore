@@ -161,7 +161,12 @@ func (s *Subscriber) consume() {
 	for {
 		msgType, buf, err := s.c.ReadMessage()
 		if err != nil {
-			if !websocket.IsCloseError(err, websocket.CloseNormalClosure) {
+			// Treat "no status" (1005) and "abnormal" (1006) closures as benign
+			if !websocket.IsCloseError(err,
+				websocket.CloseNormalClosure,
+				websocket.CloseNoStatusReceived,
+				websocket.CloseAbnormalClosure,
+			) {
 				log.Error("unexpected websocket closure (%v)", err)
 			}
 			return
@@ -182,6 +187,14 @@ func (s *Subscriber) consume() {
 				log.Error("failed to send stream message (%v)", err)
 			}
 		case websocket.CloseMessage:
+			// Acknowledge the close frame as required by RFC 6455 (§ 5.5.1)
+			// and give the peer a chance to receive it before we tear down
+			// the connection. Without this, the peer reports code 1005/1006.
+			_ = s.c.WriteControl(
+				websocket.CloseMessage,
+				websocket.FormatCloseMessage(websocket.CloseNormalClosure, ""),
+				time.Now().Add(time.Second),
+			)
 			return
 		}
 	}

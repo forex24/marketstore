@@ -1,0 +1,51 @@
+[package]
+name = "marketstore-rust-client"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Rust client for MarketStore with gRPC and WebSocket support"
+license = "MIT"
+repository = "https://github.com/yourusername/marketstore-rust-client"
+
+[dependencies]
+# gRPC相关
+tonic = "0.10"
+prost = "0.12"
+
+# WebSocket相关
+tokio-tungstenite = "0.27"
+futures = "0.3"
+
+# 异步运行时
+tokio = { version = "1.0", features = ["full"] }
+
+# 序列化
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rmp = "0.8"  # MessagePack
+rmp-serde = "1.1"
+
+# 错误处理
+anyhow = "1.0"
+thiserror = "1.0"
+
+# 时间处理
+chrono = { version = "0.4", features = ["serde"] }
+
+# 工具库
+url = "2.4"
+uuid = { version = "1.0", features = ["v4"] }
+async-trait = "0.1"
+clap = { version = "3.0", features = ["derive"] }
+
+# 日志
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+[dev-dependencies]
+tokio-test = "0.4"
+wiremock = "0.5"
+mockall = "0.11"
+
+[build-dependencies]
+tonic-build = "0.10" 
