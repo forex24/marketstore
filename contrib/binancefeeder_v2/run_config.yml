@@ -1,0 +1,59 @@
+# MarketStore配置文件 - 币安插件V2测试
+root_directory: data
+listen_port: 5993
+log_level: info
+timezone: UTC
+
+# 后台工作器配置
+bgworkers:
+  - module: binancefeeder_v2.so
+    name: BinanceFeederV2
+    config:
+      # API配置（主网，无需API密钥）
+      api_key: ""
+      secret_key: ""
+      testnet: false
+
+      # 符号配置 - 只获取BTCUSDT和ETHUSDT
+      symbols:
+        - "BTCUSDT"
+        - "ETHUSDT"
+      
+      # 排除的符号（空列表）
+      exclude_symbols: []
+
+      # 时间框架配置
+      timeframe: "1m"  # 基础时间框架
+
+      # Backfill配置 - 获取最近1小时的数据
+      backfill:
+        enabled: true
+        start_time: "2020-01-01T00:00:00Z"
+        end_time: "2025-07-29T21:00:00Z"
+        batch_size: 10
+        parallelism: 1
+        interval: "1m"
+
+      # 实时数据配置 - 启用实时数据流
+      realtime:
+        enabled: true
+        stream_type: "kline"  # kline, trade, depth
+        update_freq: "1m"     # 更新频率
+        buffer_size: 1000     # 缓冲区大小
+        max_retries: 3        # 最大重试次数
+        retry_delay: "5s"     # 重试延迟
+
+# 触发器配置（可选）- 用于数据聚合
+triggers:
+  - module: ondiskagg.so
+    on: "*/1m/OHLCV"
+    config:
+      filter: ""
+      destinations: [ "3Min", "5Min", "15Min", "30Min", "1H", "4H", "1D", "1W" ]
+      aggfunc: "sum"
+      aggfunc_params:
+        - "Volume"
+      aggfunc_returns:
+        - "Volume"
+      dest_timeframe: "5m"
+      dest_attrgroup: "OHLCV" 
