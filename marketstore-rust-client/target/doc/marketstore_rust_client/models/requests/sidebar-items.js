@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["CreateRequest","DestroyRequest","QueryRequest","QueryRequestBuilder","StreamSubscription","WriteRequest"]};

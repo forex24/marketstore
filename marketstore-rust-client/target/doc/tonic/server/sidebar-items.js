@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Grpc"],"trait":["ClientStreamingService","NamedService","ServerStreamingService","StreamingService","UnaryService"]};

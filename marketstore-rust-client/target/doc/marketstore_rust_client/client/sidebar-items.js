@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["grpc_client","hybrid_client","websocket_client"]};

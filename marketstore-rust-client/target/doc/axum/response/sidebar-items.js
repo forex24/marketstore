@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["AppendHeaders","ErrorResponse","Html","Redirect","ResponseParts"],"trait":["IntoResponse","IntoResponseParts"],"type":["Response","Result"]};

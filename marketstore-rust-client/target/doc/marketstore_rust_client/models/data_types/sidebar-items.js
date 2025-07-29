@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["SymbolFormat"],"struct":["DataShape","ErrorMessage","NumpyDataset","NumpyMultiDataset","OHLCVData","StreamPayload","SubscribeMessage"]};

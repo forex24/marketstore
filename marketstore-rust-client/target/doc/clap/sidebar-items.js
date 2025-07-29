@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"derive":["ArgEnum"],"enum":["ColorChoice"],"macro":["arg","command","value_parser"],"mod":["builder","error","parser"],"trait":["Args","CommandFactory","FromArgMatches","Parser","Subcommand","ValueEnum"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["interceptor"],"mod":["interceptor"],"trait":["Interceptor"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["interceptor"],"struct":["InterceptedService","InterceptorLayer","ResponseFuture"],"trait":["Interceptor"]};

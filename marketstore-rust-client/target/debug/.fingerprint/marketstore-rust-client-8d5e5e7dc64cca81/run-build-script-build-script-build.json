@@ -1,1 +1,0 @@
-{"rustc":12610991425282158916,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[5711708012882073806,"build_script_build",false,8036635515096269327]],"local":[{"RerunIfChanged":{"output":"debug/build/marketstore-rust-client-8d5e5e7dc64cca81/output","paths":["proto/marketstore.proto","proto"]}}],"rustflags":[],"config":0,"compile_kind":0}
